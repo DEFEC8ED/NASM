@@ -48,7 +48,7 @@ minus:
 	cmp eax, 0 ; 
 	jns print_time ; jump if not sign
 		
-    push negative
+    	push negative
 	call puts
 	add esp, 4
 
