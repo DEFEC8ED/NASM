@@ -1,7 +1,6 @@
 ; Linux/x86 /usr/bin/id - 31 bytes
 ; zxp
 
-
 ; //id -- 0x64692f2f
 ; /bin -- 0x6e69622f
 ; /usr -- 0x7273752f
