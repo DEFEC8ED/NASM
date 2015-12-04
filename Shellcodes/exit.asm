@@ -1,4 +1,4 @@
-; Linux\x86 - exit(1)
+; Linux/x86 - exit(1)
 ; zxp
 
 00000000  31C0              xor eax,eax
