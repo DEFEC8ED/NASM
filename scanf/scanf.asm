@@ -1,5 +1,11 @@
 BITS 32
 
+; If you are on 64bit system, then do the following:
+;
+; nasm -f elf32 scanf.asm 
+; gcc -m32 scanf.o ; ./a.out
+
+
 section .data
 	input:	db "Enter a number in range 1 - 10", 0, 0
 	toobig:	db "Number is too big!", 0, 0 ; if num is bigger than 10
