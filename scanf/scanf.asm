@@ -25,7 +25,7 @@ section .text
 	global main:
 
 main:
-	push ebp
+	push ebp ; function prologue
 	mov ebp, esp
 	sub esp, 4 
 
