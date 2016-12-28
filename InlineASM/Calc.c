@@ -66,7 +66,6 @@ void menu()
 	printf("(0) - Exit\n");
 }
 
-
 int add()
 {
 	printf("\n1st number: \n");
@@ -84,7 +83,6 @@ int add()
 	printf("\nResult: %d\n", c);
 	return 0;
 }
-
 
 int sub()
 {
@@ -106,7 +104,6 @@ int sub()
 
 }
 
-
 int multi()
 {
 	printf("\n1st number: \n");
@@ -125,7 +122,6 @@ int multi()
 	printf("\nResult: %d\n", c);
 	return 0;
 }
-
 
 int divi()
 {	
