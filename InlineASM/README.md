@@ -1,4 +1,4 @@
-Just compile it as any other C code:
+Compile it as any other C code:
 ```
 gcc Calc.c -o Calc
 ```
