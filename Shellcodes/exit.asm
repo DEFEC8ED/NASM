@@ -1,5 +1,5 @@
 ; Linux/x86 - exit(1)
-; zxp
+; zpx
 
 00000000  31C0              xor eax,eax
 00000002  FEC0              inc al
