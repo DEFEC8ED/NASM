@@ -1,14 +1,13 @@
 BITS 32
 
-; STDIN - 0
-; STDOUT - 1
-; STDERR - 2
+; nasm -f elf main.asm
+; ld -m elf_i386 main.o -o main
 
 %include 'func.asm' ; include file with fuctions
 
 section .data
 	STDIN 	equ 0
-	STDOUT	equ 1
+	STDOUT 	equ 1
 
 	choose:	db "Choose a number in range 1 - 4: "
 	choose_len:	equ $ - choose
@@ -72,5 +71,5 @@ _start:
 	cmp al, 4
 	je four
 
-	cmp al, 5
+	cmp al, 4
 	jg greater ; jump if greater than 5
