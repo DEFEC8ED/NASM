@@ -72,4 +72,4 @@ _start:
 	je four
 
 	cmp al, 4
-	jg greater ; jump if greater than 5
+	jg greater ; jump if greater than 4
