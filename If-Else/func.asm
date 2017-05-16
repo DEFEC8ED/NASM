@@ -53,6 +53,6 @@ less:
 	jmp gameover
 
 gameover:
-	mov eax, 1
-	mov ebx, 0
+	mov al, 1
+	xor bl, bl
 	int 0x80
